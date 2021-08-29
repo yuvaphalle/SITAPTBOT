@@ -1,5 +1,6 @@
 # - coding: utf-8 -
 
+from datetime import datetime
 
 start = '''Hi FLowers !\n'''
 
@@ -17,10 +18,10 @@ links = '''Links Here:
 sit.org -- "SIT"
 '''
 
+now = datetime.now()
 
-faq_en = '''There will be a FAQ
+faq_en = ('There will be a FAQ', now )
 
-'''
 
 clean_hashtag = '#cleaning'
 
@@ -33,7 +34,7 @@ clean_headers = [
 
                     ]
 
-clean_body = '{}:\t{} and {}\n'
+clean_body = 'In the morning {}:\t{} and in the night {}\n'
 
 
 

@@ -36,12 +36,12 @@ class CleaningReminder:
         self.start_date = start_date
 
         self.room_list_1 = ['Mohit', 'Khurshid' ,'Yuva']
-        self.room_list_2 = ['Mohit', 'Khurshid' ,'Yuva']
+        self.room_list_2 = ['Khurshid', 'Yuva' ,'Mohit']
     
         self.pinned_message_id = None
 
     def add_remind_time(self, remind_time):
-        schedule.every().monday.at(remind_time).do(self.__clean_reminder)
+        schedule.every().day.at(remind_time).do(self.__clean_reminder)
 
     def polling(self):
         thread = threading.Thread(target=self.__polling_loop)
@@ -101,7 +101,7 @@ def handle_joinchat(message):
 
 if __name__ == '__main__':
     reminder = CleaningReminder(token, chat_id, fixed_date)
-    reminder.add_remind_time('16:20')
+    reminder.add_remind_time('17:06')
     reminder.polling()
 
     bot.polling()
