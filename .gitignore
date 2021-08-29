@@ -1,0 +1,8 @@
+# Python cache
+*/__pycache__/
+
+
+# Bot configuration file:
+# include token and proxy settings
+#botconfig.py
+.idea/

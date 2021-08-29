@@ -1,0 +1,8 @@
+pyTelegramBotAPI
+requests
+PySocks
+schedule
+gunicorn
+urllib3
+preprocessing
+datetime
