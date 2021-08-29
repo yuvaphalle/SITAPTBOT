@@ -101,7 +101,7 @@ def handle_joinchat(message):
 
 if __name__ == '__main__':
     reminder = CleaningReminder(token, chat_id, fixed_date)
-    reminder.add_remind_time('15:15')
+    reminder.add_remind_time('15:20')
     reminder.polling()
 
     bot.polling()

@@ -25,9 +25,11 @@ faq_en = '''There will be a FAQ
 clean_hashtag = '#cleaning'
 
 clean_headers = [
+                        'Clean the Kitchen, if you are not an a**hole \n'
                         'Cmon slow hands, Clean the Dirty Kitchen!\n',
                         'Dont Be Lazy and start cleaning! \n',
-                        'Clean the Kitchen, if you are not an asshole \n'
+                        'Clean the kitchen!!!!! and be a man \n',
+
 
                     ]
 
