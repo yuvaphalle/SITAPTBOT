@@ -13,7 +13,7 @@ For the kitchen cleaning schedule check pinned message and #cleaning hashtag
 
 '''
 
-links = '''Полезные ссылки: 
+links = '''Links Here: 
 sit.org -- "SIT"
 '''
 
